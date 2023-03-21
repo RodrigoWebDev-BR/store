@@ -12,13 +12,17 @@ header {
     height: 60px;
     cursor: pointer;
 }
+/*
+.navbar {
+    display: flex;
+}
 
-.navbar-nav {
+.navbar .navbar-nav {
     display: flex;
     flex-direction: row;
     list-style: none;
 }
-
+*/
 .list-menu {
     
     background-color: var(--bg-color-primary);

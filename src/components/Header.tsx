@@ -3,8 +3,8 @@ export function Header() {
     return (
         <header className="container-fluid">
             <img src="./assets/img/logo/Tennis Store.png" alt="logo" className="logotipo" />
-            <nav className="navbar-expand-lg navbar">
-                <ul className="navbar-nav">
+            <nav className="navbar">
+                <ul className="navbar-nav d-flex flex-row container-fluid">
                     <li className="navbar-brand">
                         <select className="for-select nav-item list-menu">
                             <option value="">Masculino</option>

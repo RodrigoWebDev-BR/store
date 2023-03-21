@@ -1,4 +1,5 @@
 import './Footer.css'
+
 export function Footer() {
     return (
         <footer className="col-12 mt-4 container-fluid">
@@ -26,7 +27,7 @@ export function Footer() {
                             <div className="col-6 ms-4">
                                 <div className="row">
                                     <div className="col-12 mb-4 mt-4 ms-4">
-                                        <div className="row">
+                                        <div className="row ">
                                             <div className="col-3">
                                                 <table>
                                                     <thead>
@@ -110,7 +111,7 @@ export function Footer() {
 
                             <div className="col-3 mb-4 mt-4">
                                 <div className="row">
-                                    <div className="col-12">
+                                    <div className="col-12 payments">
                                         <div className="row">
                                             <div className="col-12 mb-1 mt-1 d-flex justify-content-evenly align-items-center">
                                                 <img src="./assets/img/icons/payment/elo_pament_method_icon_142756.svg"
