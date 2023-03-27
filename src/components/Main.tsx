@@ -7,7 +7,7 @@ const cardStyle = {
 
 export function Main() {
     return (
-        <main className="container-fluid">
+        <main className="col-12 container-fluid">
             <section>
                 <div id="carouselExampleSlidesOnly" className="carousel slide" data-bs-ride="carousel">
                     <div className="carousel-inner d-flex justify-content-center">
