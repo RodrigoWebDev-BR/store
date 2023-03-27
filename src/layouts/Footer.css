@@ -1,0 +1,127 @@
+
+footer {
+    background-color: var(--bg-color-primary);
+    font-size: 10pt;   
+}
+
+footer div div p {
+    font-size: 16pt;
+}
+
+footer input {
+    border-radius: 20px;
+    min-width: 200px;
+    max-width: 150px;
+    text-align: center;
+    padding: 0.15rem;
+    color: var(--bg-color-primary);
+    font-size: 10pt;
+    font-weight: 750;
+    cursor: pointer;    
+}
+
+.vetado {
+    font-size: 10pt;
+}
+
+footer div div a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 16pt;
+}
+
+footer div div a:hover {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+/* Responsive */
+
+@media (max-width: 700px) {
+    footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        margin-left: -100px;
+    }
+
+    footer input {
+        min-width: 300px;
+        max-width: 150px;
+    }
+
+    footer h4 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+        margin-left: 135px;
+    }
+
+}
+
+@media (max-width: 350px) {
+    footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        margin-left: -100px;
+    }
+
+    footer input {
+        min-width: 300px;
+        max-width: 150px;
+    }
+
+    footer h4 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+        margin-left: 135px;
+    }
+
+    .social-media-vetado {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .social-media {
+        display: flex;
+        flex-direction: row;
+    }
+
+}
+
+@media (max-width: 700px) {
+    .payments {
+        margin-left: 50%;
+    }
+
+    .payments .row div img {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media (max-width: 350px) {
+    .payments {
+        margin-left: 70%;
+    }
+    .payments .row div img {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);   
+    }
+}
